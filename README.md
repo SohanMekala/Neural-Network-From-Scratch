@@ -1,6 +1,6 @@
 # Neural-Network
 
-NOTES: [https://drive.google.com/file/d/1JP6b-aNoKEQbzmz9P12LbSndoCJXCeRz/view?usp=sharing](url)
+NOTES: https://drive.google.com/file/d/1JP6b-aNoKEQbzmz9P12LbSndoCJXCeRz/view?usp=sharing
 
 Solving the famous XOr problem with a Neural Netwrok
 
