@@ -137,14 +137,20 @@ network = [
 # train
 train(network, mse, mse_prime, X, Y, epochs=10000, learning_rate=0.1)
 
+print()
+print()
+print("Training Complete")
+print()
+print()
+
 #predict XOr for 0,0: should print 0
-print(round(float(predict(network,[[0],[0]]))))
+print("XOr operator for [0,0]:   "+str(round(float(predict(network,[[0],[0]])))))
 
 #predict XOr for 1,0: should print 1
-print(round(float(predict(network,[[1],[0]]))))
+print("XOr operator for [1,0]:   "+str(round(float(predict(network,[[1],[0]])))))
 
 #predict XOr for 0,1: should print 1
-print(round(float(predict(network,[[0],[1]]))))
+print("XOr operator for [0,1]:   "+str(round(float(predict(network,[[0],[1]])))))
 
 #predict XOr for 1,1: should print 0
-print(round(float(predict(network,[[1],[1]]))))
+print("XOr operator for [1,1]:   "+str(round(float(predict(network,[[1],[1]])))))
